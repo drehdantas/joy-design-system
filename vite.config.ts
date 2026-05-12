@@ -16,6 +16,7 @@ function figmaAssetResolver() {
 }
 
 export default defineConfig({
+  base: '/joy-design-system/',
   plugins: [
     figmaAssetResolver(),
     react(),
