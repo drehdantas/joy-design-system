@@ -11,7 +11,7 @@ import ProfilePage from './pages/ProfilePage';
 export default function App() {
   try {
     return (
-      <BrowserRouter>
+      <BrowserRouter basename="/joy-design-system">
         <Routes>
           <Route path="/" element={<Layout />}>
             {/* Default redirect */}
