@@ -44,10 +44,12 @@ export default defineConfig({
     "cssFileName": "style"
   },
   "rollupOptions": {
+    input: './index.html',
     "output": {
       "preserveModules": true,
       "preserveModulesRoot": "src",
-      "entryFileNames": "[name].js"
+      "entryFileNames": "[name].js",
+      "dir": "dist"
     }
   }
 },
