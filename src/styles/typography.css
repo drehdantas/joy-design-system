@@ -1,0 +1,126 @@
+/* Display Styles */
+.display-large {
+  font-family: var(--font-family-onest);
+  font-size: var(--font-size-s57);
+  font-weight: var(--font-weight-regular);
+}
+
+.display-medium {
+  font-family: var(--font-family-onest);
+  font-size: var(--font-size-s45);
+  font-weight: var(--font-weight-regular);
+}
+
+.display-small {
+  font-family: var(--font-family-onest);
+  font-size: var(--font-size-s36);
+  font-weight: var(--font-weight-bold);
+}
+
+.display-small-bold {
+  font-family: var(--font-family-onest);
+  font-size: var(--font-size-s36);
+  font-weight: var(--font-weight-bold);
+}
+
+.display-link {
+  font-family: var(--font-family-onest);
+  font-size: var(--font-size-s12);
+  font-weight: var(--font-weight-regular);
+  text-decoration: underline;
+}
+
+/* Headline Styles */
+.headline-large {
+  font-family: var(--font-family-onest);
+  font-size: var(--font-size-s32);
+  font-weight: var(--font-weight-bold);
+}
+
+.headline-large-bold {
+  font-family: var(--font-family-onest);
+  font-size: var(--font-size-s32);
+  font-weight: var(--font-weight-bold);
+}
+
+.headline-medium {
+  font-family: var(--font-family-onest);
+  font-size: var(--font-size-s28);
+  font-weight: var(--font-weight-bold);
+}
+
+.headline-small {
+  font-family: var(--font-family-onest);
+  font-size: var(--font-size-s24);
+  font-weight: var(--font-weight-bold);
+}
+
+/* Title Styles */
+.title-large {
+  font-family: var(--font-family-onest);
+  font-size: var(--font-size-s18);
+  font-weight: var(--font-weight-regular);
+}
+
+.title-medium {
+  font-family: var(--font-family-onest);
+  font-size: var(--font-size-s16);
+  font-weight: var(--font-weight-regular);
+}
+
+.title-small {
+  font-family: var(--font-family-onest);
+  font-size: var(--font-size-s14);
+  font-weight: var(--font-weight-semibold);
+}
+
+/* Body Styles */
+.body-large {
+  font-family: var(--font-family-onest);
+  font-size: var(--font-size-s16);
+  font-weight: var(--font-weight-regular);
+}
+
+.body-medium {
+  font-family: var(--font-family-onest);
+  font-size: var(--font-size-s14);
+  font-weight: var(--font-weight-regular);
+}
+
+.body-small {
+  font-family: var(--font-family-onest);
+  font-size: var(--font-size-s12);
+  font-weight: var(--font-weight-regular);
+}
+
+/* Label Styles */
+.label-large {
+  font-family: var(--font-family-onest);
+  font-size: var(--font-size-s14);
+  font-weight: var(--font-weight-medium);
+}
+
+.label-medium {
+  font-family: var(--font-family-onest);
+  font-size: var(--font-size-s12);
+  font-weight: var(--font-weight-medium);
+}
+
+.label-small {
+  font-family: var(--font-family-onest);
+  font-size: var(--font-size-s11);
+  font-weight: var(--font-weight-medium);
+}
+
+/* Header Style */
+.header {
+  font-family: var(--font-family-onest);
+  font-size: var(--font-size-s16);
+  font-weight: var(--font-weight-bold);
+}
+
+.display {
+  font-family: var(--font-family-onest);
+  font-size: var(--font-size-s12);
+  font-weight: var(--font-weight-bold);
+}

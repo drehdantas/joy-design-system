@@ -1,0 +1,283 @@
+:root {
+  /* Typography - Font Family */
+  --font-family-onest: 'Onest', sans-serif;
+
+  /* Typography - Font Sizes */
+  --font-size-s11: 0.6875rem; /* 11px */
+  --font-size-s12: 0.75rem; /* 12px */
+  --font-size-s14: 0.875rem; /* 14px */
+  --font-size-s16: 1rem; /* 16px */
+  --font-size-s18: 1.125rem; /* 18px */
+  --font-size-s24: 1.5rem; /* 24px */
+  --font-size-s28: 1.75rem; /* 28px */
+  --font-size-s32: 2rem; /* 32px */
+  --font-size-s36: 2.25rem; /* 36px */
+  --font-size-s45: 2.8125rem; /* 45px */
+  --font-size-s57: 3.5625rem; /* 57px */
+
+  /* Typography - Font Weights */
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+
+  /* Spacing Tokens */
+  --spacing-0: 0px;
+  --spacing-px: 1px;
+  --spacing-0-5: 0.125rem; /* 2px */
+  --spacing-1: 0.25rem; /* 4px */
+  --spacing-1-5: 0.375rem; /* 6px */
+  --spacing-2: 0.5rem; /* 8px */
+  --spacing-2-5: 0.625rem; /* 10px */
+  --spacing-3: 0.75rem; /* 12px */
+  --spacing-3-5: 0.875rem; /* 14px */
+  --spacing-4: 1rem; /* 16px */
+  --spacing-5: 1.25rem; /* 20px */
+  --spacing-6: 1.5rem; /* 24px */
+  --spacing-7: 1.75rem; /* 28px */
+  --spacing-8: 2rem; /* 32px */
+  --spacing-9: 2.25rem; /* 36px */
+  --spacing-10: 2.5rem; /* 40px */
+  --spacing-11: 2.75rem; /* 44px */
+  --spacing-12: 3rem; /* 48px */
+  --spacing-14: 3.5rem; /* 56px */
+  --spacing-16: 4rem; /* 64px */
+  --spacing-20: 5rem; /* 80px */
+  --spacing-24: 6rem; /* 96px */
+  --spacing-28: 7rem; /* 112px */
+  --spacing-32: 8rem; /* 128px */
+  --spacing-36: 9rem; /* 144px */
+  --spacing-40: 10rem; /* 160px */
+  --spacing-44: 11rem; /* 176px */
+  --spacing-48: 12rem; /* 192px */
+  --spacing-52: 13rem; /* 208px */
+  --spacing-56: 14rem; /* 224px */
+  --spacing-60: 15rem; /* 240px */
+  --spacing-64: 16rem; /* 256px */
+  --spacing-72: 18rem; /* 288px */
+  --spacing-80: 20rem; /* 320px */
+  --spacing-96: 24rem; /* 384px */
+
+  /* Shadow Tokens */
+  --shadow-xsm: 0px 1px 3px 0px rgba(0,0,0,0.1), 0px 1px 2px 0px rgba(0,0,0,0.06);
+  --shadow-sm: 0px 4px 8px -2px rgba(0,0,0,0.1), 0px 2px 4px -2px rgba(0,0,0,0.06);
+  --shadow-md: 0px 12px 16px -4px rgba(0,0,0,0.08), 0px 4px 6px -2px rgba(0,0,0,0.03);
+  --shadow-lg: 0px 20px 24px -4px rgba(0,0,0,0.08), 0px 8px 8px -4px rgba(0,0,0,0.03);
+  --shadow-xl: 0px 24px 48px -12px rgba(0,0,0,0.18);
+  --shadow-2xl: 0px 32px 64px -12px rgba(0,0,0,0.14);
+
+  /* Primary Colors */
+  --color-primary: #2C45FF;
+  --color-primary-light: #E3E9FF;
+  --color-white: #FFFFFF;
+  --color-deep-blue: #090E35;
+  --color-marine-blue: #316bb8;
+
+  /* Secondary Colors */
+  --color-orange: #FF7F00;
+  --color-teal: #76E0F3;
+  --color-purple: #4200D9;
+  --color-neon-yellow: #ECFF40;
+  --color-dark-green: #008553;
+
+  /* Tertiary Colors */
+  --color-dark: #575F80;
+  --color-medium-gray: #C1BFC7;
+  --color-blue: #ADBEFF;
+  --color-dark-red: #D40020;
+  --color-green: #4FD43A;
+
+  /* Overlays */
+  --color-overlay-light-grey: #FCFCFC;
+  --color-overlay-medium-gray: #F9F9F9;
+  --color-overlay-dark-grey: #DDDAE5;
+  --color-overlay-light-blue: #E3E9FF;
+  --color-overlay-medium-blue: #4158FF;
+  --color-overlay-dark-blue: #5519DD;
+  --color-overlay-orange: #FF8C19;
+  --color-overlay-teal: #91E6F5;
+  --color-overlay-neon-yellow: #E3F53D;
+  --color-overlay-green: #40BE60;
+  --color-overlay-light-green: #B3DACB;
+  --color-overlay-red: #D14408;
+  --color-overlay-lilac: #EDE7F6;
+  --color-overlay-transparent-blue: rgba(44, 69, 255, 0.4);
+  --color-overlay-transparent-dark: rgba(0, 0, 0, 0.5);
+
+  /* Status */
+  --color-success: #4FC43A;
+  --color-warning: #FFE500;
+  --color-error: #C12C01;
+
+  /* Gray Variants */
+  --color-gray: #DDDAE5;
+  --color-light-gray: #D9D9D9;
+  --color-lighter-grey: #767680;
+  --color-deep-gray: #747474;
+  --color-dark-gray: #9E9E9E;
+  --color-dark-grey: #747474;
+
+  --color-red: #FF3D0D;
+
+  /* Standard Colors */
+  --color-black: #000000;
+  --color-dark-black: #121212;
+  --color-transparent: transparent;
+  --color-yellow: #FFEB3B;
+  --color-eclipse: #303030;
+  --color-light-black: #181818;
+
+  /* Other Colors */
+  --color-shimmer-base: #E0E0E0;
+  --color-shimmer-highlight: #F5F5F5;
+  --color-silver: #C0C0C0;
+  --color-primary-selected: #E3E9FF;
+  --color-card-shadow: #0E424F;
+  --color-arrow-black: #001226;
+  --color-secondary-card: #E2F5FF;
+  --color-icon-alternative: #565E66;
+  --color-icon-alternative-2: #007B8B;
+  --color-expired: #F2B3BC;
+  --color-timer-background: #F3F7FD;
+  --color-timer-border: #D7E5F8;
+  --color-timer-red-border: #E56679;
+  --color-timer-red-background: #FBE6E9;
+
+  /* Yellow Palette */
+  --color-yellow-100: #F7FFB3;
+  --color-yellow-200: #F4FF8C;
+  --color-yellow-300: #F0FF66;
+  --color-yellow-500: #ECFF40;
+
+  /* Orange Palette */
+  --color-orange-100: #FFCC99;
+  --color-orange-200: #FFB266;
+  --color-orange-300: #FF9933;
+  --color-orange-500: #FF7F00;
+
+  /* Teal Palette */
+  --color-teal-100: #C8F3FA;
+  --color-teal-200: #ADECF8;
+  --color-teal-300: #91E6F5;
+  --color-teal-500: #76E0F3;
+
+  /* Blue Palette */
+  --color-blue-100: #A1B4FF;
+  --color-blue-200: #728EFF;
+  --color-blue-300: #4369FF;
+  --color-blue-500: #1443FF;
+
+  /* Purple Palette */
+  --color-purple-100: #D899E5;
+  --color-purple-200: #C466D9;
+  --color-purple-300: #B133CC;
+  --color-purple-500: #9D00BF;
+
+  /* Info Semantic Colors */
+  --color-info-50: #EBF2FD;
+  --color-info-100: #C1D7F9;
+  --color-info-200: #A3C4F6;
+  --color-info-300: #78A9F2;
+  --color-info-400: #5E98F0;
+  --color-info-500: #367EEC;
+  --color-info-600: #3173D7;
+  --color-info-700: #2659A8;
+  --color-info-800: #1E4582;
+  --color-info-900: #173563;
+
+  /* Warning Semantic Colors */
+  --color-warning-50: #FFFAE9;
+  --color-warning-100: #FFEEBA;
+  --color-warning-200: #FFE698;
+  --color-warning-300: #FEDA6A;
+  --color-warning-400: #FED34D;
+  --color-warning-500: #FEC820;
+  --color-warning-600: #E7B61D;
+  --color-warning-700: #B48E17;
+  --color-warning-800: #8C6E12;
+  --color-warning-900: #6B540D;
+
+  /* Success Semantic Colors */
+  --color-success-50: #E9F6EC;
+  --color-success-100: #B9E4C3;
+  --color-success-200: #98D7A5;
+  --color-success-300: #68C57C;
+  --color-success-400: #4BBA63;
+  --color-success-500: #1EA93C;
+  --color-success-600: #1B9A37;
+  --color-success-700: #15782B;
+  --color-success-800: #115D21;
+  --color-success-900: #0D4719;
+
+  /* Danger Semantic Colors */
+  --color-danger-50: #FAEBEB;
+  --color-danger-100: #F1BFC1;
+  --color-danger-200: #EAA1A3;
+  --color-danger-300: #E07679;
+  --color-danger-400: #DA5B5F;
+  --color-danger-500: #D13237;
+  --color-danger-600: #BE2E32;
+  --color-danger-700: #942427;
+  --color-danger-800: #731C1E;
+  --color-danger-900: #581517;
+
+  /* Dark Text Colors */
+  --color-dark-100: #CECFD7;
+  --color-dark-200: #9D9FAF;
+  --color-dark-300: #6B6F86;
+  --color-dark-400: #3A3F5E;
+  --color-dark-500: #090F39;
+
+  /* Gray Text Colors */
+  --color-gray-100: #EFEFEF;
+  --color-gray-200: #272727;
+  --color-gray-300: #656565;
+  --color-gray-400: #A2A2A2;
+  --color-gray-500: #667085;
+  --color-gray-700: #4b4b4b;
+  --color-gray-800: #1D1D1D;
+  --color-black-100: #CECFD7;
+
+  /* FIFA Brand Colors */
+  --color-fifa-lime: #BAEF01;
+  --color-fifa-green: #51a74b;
+  --color-fifa-dark-gray: #2f2f2f;
+  --color-fifa-black-texture: #1b1b1b;
+  --color-fifa-black: #181818;
+  --color-fifa-teal: #75FBD9;
+  --color-fifa-orange: #ea5528;
+  --color-fifa-red: #b52521;
+  --color-fifa-blue: #57a1c9;
+  --color-fifa-yellow: #f5c242;
+  --color-fifa-purple: #4c1991;
+  --color-fifa-lavender: #b394f6;
+  --color-fifa-maroon: #761512;
+  --color-fifa-spring-green: #A2ED00;
+  --color-fifa-banner-black: #2A1100;
+
+  /* Gradient Colors */
+  --color-gradient-red: #E90101;
+  --color-gradient-purple: #6A02F7;
+  --color-gradient-blue: #244FFE;
+  --color-gradient-cyan: #01FFD7;
+  --color-gradient-green: #9FED01;
+
+  --color-black-lock: #484848;
+
+  /* Additional Colors */
+  --color-crimson-red: #CE3A2B;
+  --color-dark-maroon: #360000;
+  --color-sky-blue: #33ABF0;
+  --color-navy-blue: #022B5F;
+  --color-gradient-golden-brown: #A97E12;
+  --color-gradient-light-yellow: #FFF699;
+  --color-deep-teal-blue: #092538;
+  --color-steel-blue: #25506D;
+  --color-bright-red: #ED1C24;
+  --color-burnt-orange: #E65E25;
+  --color-bright-green: #43B02A;
+  --color-deep-green: #046A38;
+  --color-light-pink: #F2B3BC;
+  --color-charcoal-black: #131313;
+  --color-text-grey: #9D9FAF;
+}
