@@ -1,8 +1,11 @@
 {
+  "homepage": "http://drehdantas.github.io/joy-design-system",
   "name": "@make-kits/joy-design-system",
   "version": "0.0.8",
   "type": "module",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "vite build",
     "dev": "vite"
   },
